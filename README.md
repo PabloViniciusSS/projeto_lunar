@@ -21,7 +21,15 @@ Meu nome é Pablo Vinícius, venho estudando aprendizado de máquinas e deep lea
 A ideia do projeto é controlar os propulsores direitos e esquerdos e central, para poder fazer o pouso Lunar, e controlar o consumo de combustivel na hora do pouso, sem causar um acidente, para isso foi feito uma rede neural de 6 camadas ocultas, com 2000 mil episodeios e 1000 etapas
 
 
+## Recompensas
 
+- Recompensa pela descida do pouso lunar: 100 à 140
+- Adicional pela movimentação perto/longe das banderolas
+- Queda: -100 Aterrisagem
+- suavem: +100
+- Perna direita/esquerda presa no solo +10
+- gasto motor principal: -0.3
+- propulsor ligado: -0.03
 
 
 
